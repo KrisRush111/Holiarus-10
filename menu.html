@@ -341,7 +341,7 @@
 // Функция для получения данных с сервера по user_id
 async function fetchUserName(userId) {
     try {
-        const response = await fetch(`https://server-for-holi-xgpm.onrender.com/get_user/${userId}`);
+        const response = await fetch(`https://server-for-holi-hjbp.onrender.com/get_user/${userId}`);
         if (!response.ok) throw new Error("Ошибка запроса к серверу");
 
         const data = await response.json();
